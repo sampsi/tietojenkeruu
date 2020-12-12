@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 import time
-import os
 import psutil
-import socket
-import fcntl 
-import struct
+import os
 import paho.mqtt.publish as publish
 from time import sleep
 from uptime import uptime
@@ -20,16 +17,11 @@ def publish_message(topic, message):
     print("mqtt topickki: " + topic)
     print("viesti: " + message)
     publish.single(topic, message, hostname="192.168.1.4")
-
 juuri = psutil.disk_usage('/')
 juuri = (int(juuri.free / (2**30)))
 data = psutil.disk_usage('/data')
 data = (int(data.free / (2**30)))
 now = int(time.time())
-print(uptimee())
-print(temp)
-print(juuri)
-print(data)
 publish_message("deltsu/temp",str(temp))
 publish_message("deltsu/uptime", str(uptimee()))
 publish_message("deltsu/juuri", str(juuri))
