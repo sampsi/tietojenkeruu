@@ -1,4 +1,4 @@
-#  *Tiedon keruu*
+#  Tiedon keruu
 
 
 
