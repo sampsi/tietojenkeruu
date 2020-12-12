@@ -6,12 +6,12 @@ scipti kerää Suorittiminen lämpötilan, koneen käynissäoloajan, "juuren" ,d
 jonka jälkeen lähettää arvot mqtt palvelimelle.
 
 ## käytetyt kirjastot:
-	* time
-	* psutil
-	* os
-	* paho-mqtt
-	* time 
-	* uptime 
+* time
+* psutil
+* os
+* paho-mqtt
+* time 
+* uptime 
 
 ##  asennus
 
