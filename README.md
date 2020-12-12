@@ -7,7 +7,7 @@ Tiedonkeruuohjelma on tehty *Python 3.8.5* lla.
 scipti kerää Suorittiminen lämpötilan, koneen käynissäoloajan, "juuren" ,data" levyn vapaan tilan gigoina ja tallentaa ne muuttujiin,
 jonka jälkeen lähettää arvot mqtt palvelimelle.
 
-käytetyt kirjastot:
+##käytetyt kirjastot:
 	* time
 	* psutil
 	* os
