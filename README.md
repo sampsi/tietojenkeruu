@@ -1,6 +1,4 @@
-#  Tiedon keruu
-
-
+#  Tiedonkeruu
 
 ##  Kuvaus
 Tiedonkeruuohjelma on tehty *Python 3.8.5* lla.
